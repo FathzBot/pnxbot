@@ -6,7 +6,7 @@ const db = require("quick.db")
 const fs = require("fs");
 let linkEngel = JSON.parse(fs.readFileSync("./json/reklam-koruması.json", "utf8"));
 const {config} = require("dotenv")
-bot.login("Njc3OTE3MjI1NzIxNzkwNDk3.XkcuFQ.xdJRW-xNAEpQ8fZ_MYOLMFb0yFY");
+bot.login("");
 var prefix = config.prefix;
 bot.on("ready",() => {
 console.log("Bot " + bot.guilds.size + " Tane sunucuda var");
